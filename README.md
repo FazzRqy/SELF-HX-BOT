@@ -4,7 +4,7 @@
 **> BOT INI 100% GRATIS, DAN TIDAK BOLEH DI JUAL BELIKAN KE SIAPAPUN!!**
 
 
-## INGFO GAN
+# INGFO GAN
 **>JIKA AD FILE YANG BERBENTUK ZIP SILAHKAN DI EKSTRAK DULU SEBELUM DI RUN OK 👍**
 
 ### CARANYA
@@ -14,7 +14,7 @@
 **>MENGEKSTRAK .ZIP HARUS MEMAKAI APLIKASI BAWAAN**
 
 
-## HAL-HAL YANG HARUS DISEDIAKAN
+# HAL-HAL YANG HARUS DISEDIAKAN
 **>yang pastinya hp 2 ( yang satu buat jalanin termux yang satu untuk scan)**
 
 **>termux**
@@ -28,7 +28,7 @@
 
 
 
-## CARA MENGINSTAL DI TERMUX
+# CARA MENGINSTAL DI TERMUX
 **>$termux-setup-storage**
 
 **>$pkg update && pkg upgrade**
