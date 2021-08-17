@@ -1,5 +1,6 @@
 // SC NYA JANGAN DI JUAL NGENTOD
 //MAKASIH DAH PAKE 
+//JIKA AD FITUR YANG ERROR SILAHKAN DI PERBAIKI SENDIRI CABEK AJG MEMPERBAIKINYA
 const
 	{
 		WAhexaection,
@@ -60,7 +61,6 @@ const welkom = JSON.parse(fs.readFileSync('./database/json/welkom.json'))
 const voting = JSON.parse(fs.readFileSync('./lib/voting.json'))
 const antilink = JSON.parse(fs.readFileSync('./database/json/antilink.json'))
 const { addVote, delVote } = require('./lib/vote')
-const { msgFilter } = require('./antispam.js')
 const { jadibot, stopjadibot, listjadibot } = require('./lib/jadibot')
 
 
@@ -69,7 +69,9 @@ offline = false
 targetpc = '6285751056816'
 owner1 = '6289653007306'
 owner2 = '6285751056816'
-fake = 'BY : HEXAGONZ'
+namephone = 'VIVO Y12s' //ganti ke merek hp lu
+myCPU = '2,3 GHz Octa-core'  //ganti ke cpu lu
+fake = 'BY : HEXAGONZ & MinsBoTz' //ganti sesuka lu
 numbernye = '0'
 waktu = '-'
 alasan = '-'
@@ -121,13 +123,6 @@ module.exports = hexa = async (hexa, mek) => {
             + 'ORG:FAR;\n'
             + 'TEL;type=CELL;type=VOICE;waid=6289653007306:+62 896-5300-7306\n' // GANTI NOMOR LU
             + 'END:VCARD'
-        const vcard2 = 'BEGIN:VCARD2\n'
-            + 'VERSION:3.0\n'
-            + 'FN:hexaOwnr\n' 
-            + 'ORG:FAR;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=6285751056816:+62 857-5105-6816\n' // yang ini nggak usah
-            + 'END:VCARD2'
-
 // here button function
 selectedButton = (type == 'buttonsResponseMessage') ? mek.message.buttonsResponseMessage.selectedButtonId : ''
 
@@ -390,13 +385,6 @@ const Minsbotlol = 'f30a10449621c4fbe804359e'
 					await hexa.groupSettingChange(from, GroupSettingChange.messageSend, true)
 					hexa.sendMessage(from, `「 *SUCCES CLOSE GRUP* 」`, MessageType.text)
 					}
-        // Anti-spam
-        if (isCmd && msgFilter.isFiltered(from) && !isGroup) {
-            console.log(color('[ SPAM ]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname))
-            return reply('_wait cooldown 15 detik_')}
-        if (isCmd && msgFilter.isFiltered(from) && isGroup) {
-            console.log(color('[ SPAM ]', 'red'), color(time, 'yellow'), color(`${command} [${args.length}]`), 'from', color(pushname), 'in', color(groupName))
-            return reply('_wait cooldown 15 detik_')}
       	if (!isGroup && isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
       	//if (!isGroup && !isCmd) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;31mTEXT\x1b[1;37m]', time, color('Message'), 'from', color(sender.split('@')[0]), 'args :', color(args.length))
      	if (isCmd && isGroup) console.log('\x1b[1;31m~\x1b[1;37m>', '[\x1b[1;32mEXEC\x1b[1;37m]', time, color(command), 'from', color(sender.split('@')[0]), 'in', color(groupName), 'args :', color(args.length))
@@ -490,8 +478,8 @@ _*BOT INI MASIH DALAM TAHAP UJI COBA*_
 ||➸TIME : ${time}
 ||➸STATUS OWNER : ${offline ? 'OFFLINE' : 'ONLINE'}
 ||➸MODE : ${banChats ? 'SELF-MODE' : 'PUBLIC-MODE'}
-||➸MEREK HP : Vivo Y12s   
-||➸CPU : 2,3 GHz Octa-core 
+||➸MEREK HP : ${namephone}   
+||➸CPU : ${myCPU}
 ||➸OWNER 1 : @${owner1}
 ||➸OWNER 2 : @${owner2}
 ||
@@ -499,6 +487,7 @@ _*BOT INI MASIH DALAM TAHAP UJI COBA*_
 || 「 DONASI」
 ||➸TRAKTEER : _https://trakteer.id/far-gaming-exe-yexd1_ 
 ||➸SAWERIA : _https://saweria.co/Farl_
+|| ketik ${prefix}donasi untuk melihat donasi yang lain
 ||~~~~~~~~~~~~~~~~~~~
 
 
@@ -510,11 +499,12 @@ Prefix : 「 ${prefix} 」
 ||► _${prefix}off_
 ||► _${prefix}on_
 ||► _${prefix}leave_
+||
+❏ *</INFO>* ❏
 ||► _${prefix}status_
 ||► _${prefix}admin_
 ||► _${prefix}gitcreator_
 ||► _${prefix}list_
-||
 ||
 ❏ *</MAKER>* ❏
 ||► _${prefix}sticker_
@@ -559,7 +549,6 @@ Prefix : 「 ${prefix} 」
 ||► _${prefix}truth_
 ||► _${prefix}seberapagay_
 ||► _${prefix}sarananime_
-||► _${prefix}meme_
 ||► _${prefix}wallpaper_ <random>
 ||► _${prefix}wallpegunungan_ <random>
 ||► _${prefix}quotes_ <random>
@@ -567,7 +556,6 @@ Prefix : 「 ${prefix} 」
 ||► _${prefix}bisakah_
 ||► _${prefix}kapankah_
 ||► _${prefix}apakah_
-||► _${prefix}linkBokep_
 ||► _${prefix}cekcantik_
 ||► _${prefix}gantengcek_
 ||► _${prefix}bokep_ <random>
@@ -581,7 +569,6 @@ Prefix : 「 ${prefix} 」
 ||► _${prefix}antilink_ <on/off>
 ||► _${prefix}setdesc_
 ||► _${prefix}setname_
-||► _${prefix}setdesc_
 ||► _${prefix}tagme_
 ||► _${prefix}nsfw_ <mati/aktif>
 ||► _${prefix}promote_
@@ -697,16 +684,6 @@ case 'antilink':
 						reply('on untuk mengaktifkan, off untuk menonaktifkan')
 					}
 					break 
-           case 'meme':
-				reply(mess.wait)
-				try {
-				meme = await fetchJson(`https://some-random-api.ml/meme`)
-				buffer = await getBuffer(meme.result)
-				hexa.sendMessage(from, buffer, image, {quoted: mek, caption: `${meme.caption}`})
-				} catch {
-				reply(mess.error.sticker)
-				}
-			break 
 			case 'tagme':
 			     if (!isGroup) return reply (mess.only.group)
 				await costum(`@${sender.split('@')[0]}`, text, hexa, `@${sender.split('@')[0]}`)
@@ -1263,15 +1240,14 @@ case 'wallpaper':
                    anu = await getBuffer(anu.result.url)
                    hexa.sendMessage(from, anu, image, {caption: `nihh kack`, quoted: mek})
                    break
-case 'admin':
             case 'owner':
                  hexa.sendMessage(from, {displayname: "Jeff", vcard: vcard}, MessageType.contact, { quoted: mek})
                  hexa.sendMessage(from, 'Jika Mau Save Chat Aja Gan Ntar Disave Back:)',text, { quoted: mek} )
                  break
 case 'gitcreator':
-               reply('http://Github.com/Hexagonz/SELF-HX')
+               reply('http://Github.com/MinsBoTz/SELF-HX-BOT')
                await sleep(3000)
-               reply('tuh githubnya creator _SELF-HX BOT_')
+               reply('tuh githubnya creator _SELF-HX-BOT_')
                break
 case 'shutdown':
                if (!mek.key.fromMe) return reply('ih ih ih.. kamu siapa??')
