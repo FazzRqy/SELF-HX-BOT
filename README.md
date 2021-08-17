@@ -3,6 +3,9 @@
 
 **> BOT INI 100% GRATIS, DAN TIDAK BOLEH DI JUAL BELIKAN KE SIAPAPUN!!**
 
+# FITUR YANG MASIH ERROR
+>ANTILINK
+>DARKJOKES
 
 # INGFO GAN
 **>JIKA AD FILE YANG BERBENTUK ZIP SILAHKAN DI EKSTRAK DULU SEBELUM DI RUN OK 👍**
@@ -172,5 +175,6 @@
 
 <a href="https://github.com/Kevzka"><img alt="GitHub" src="https://img.shields.io/badge/Kevzka%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 
+<a href="https://github.com/Riripii"><img alt="GitHub" src="https://img.shields.io/badge/Riripii%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 
-
+<a href="https://github.com/LitRHap"><img alt="GitHub" src="https://img.shields.io/badge/LitRHap%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
