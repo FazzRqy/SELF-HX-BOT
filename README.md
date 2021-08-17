@@ -164,13 +164,13 @@
 
 
 # SPECIAL THANKS TO
-**Allah.SWT**
+「 Allah.SWT 」
 
-**@HEXAGONZ**
+HEXAGONZ
 
-**@Fxc7**
+Fxc7
 
-**@Kevzka**
+Kevzka
 
 
 
