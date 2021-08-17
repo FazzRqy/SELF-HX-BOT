@@ -45,7 +45,7 @@
 
 **>$pkg install nodejs**
 
-**>$pkg install bash
+**>$pkg install bash**
 
 
 
