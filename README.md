@@ -166,11 +166,11 @@
 # SPECIAL THANKS TO
 「 Allah.SWT 」
 
-HEXAGONZ
+<a href="https://github.com/HEXAGONZ"><img alt="GitHub" src="https://img.shields.io/badge/HEXAGONZ%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 
-Fxc7
+<a href="https://github.com/Fxc7"><img alt="GitHub" src="https://img.shields.io/badge/Fxc7%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 
-Kevzka
+<a href="https://github.com/Kevzka"><img alt="GitHub" src="https://img.shields.io/badge/Kevzka%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white">
 
 
 
