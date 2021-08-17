@@ -12,6 +12,8 @@
 
 **>quick edit**
 
+**>Whatsapp**
+
 **>dan kopi dan udut biar nggak gabut**
 
 
