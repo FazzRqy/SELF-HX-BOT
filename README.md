@@ -4,6 +4,9 @@
 **> BOT INI 100% GRATIS, DAN TIDAK BOLEH DI JUAL BELIKAN KE SIAPAPUN!!**
 
 
+## INGFO GAN
+**>JIKA AD FILE YANG BERBENTUK ZIP SILAHKAN DI EKSTRAK DULU SEBELUM DI RUN OK 👍**
+
 
 ## HAL-HAL YANG HARUS DISEDIAKAN
 **>yang pastinya hp 2 ( yang satu buat jalanin termux yang satu untuk scan)**
