@@ -32,6 +32,7 @@
 
 **>$pkg install nodejs**
 
+**>$pkg install bash
 
 
 
@@ -39,6 +40,8 @@
 **>$git clone https://github.com/MinsBoTz/SELF-HX-BOT**
 
 **>$cd SELF-HX-BOT**
+
+**>$bash install.sh
 
 **>$npm start**
 
