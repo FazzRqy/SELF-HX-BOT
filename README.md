@@ -7,6 +7,12 @@
 ## INGFO GAN
 **>JIKA AD FILE YANG BERBENTUK ZIP SILAHKAN DI EKSTRAK DULU SEBELUM DI RUN OK 👍**
 
+### CARANYA
+**>KETIK MC DAN CARI FILE BOT YANG BERNAMA 'SELF-HX-BOT' TERUS KETIK VIEW CARI YANG ADA NAMANYA .ZIP LALU PINDAHKAN KE DCIM** 
+
+### INGAT
+**>MENGEKSTRAK .ZIP HARUS MEMAKAI APLIKASI BAWAAN**
+
 
 ## HAL-HAL YANG HARUS DISEDIAKAN
 **>yang pastinya hp 2 ( yang satu buat jalanin termux yang satu untuk scan)**
@@ -155,3 +161,16 @@
 
  dan lain lain cek aj sendiri|   |
  :----------------: | :------:   |
+
+
+# SPECIAL THANKS TO
+**Allah.SWT**
+
+**@HEXAGONZ**
+
+**@Fxc7**
+
+**@Kevzka**
+
+
+
