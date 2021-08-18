@@ -18,6 +18,7 @@
 **>MENGEKSTRAK .ZIP HARUS MEMAKAI APLIKASI BAWAAN**
 
 
+
 # HAL-HAL YANG HARUS DISEDIAKAN
 **>yang pastinya hp 2 ( yang satu buat jalanin termux yang satu untuk scan)**
 
@@ -29,7 +30,10 @@
 
 **>kopi dan udut biar nggak gabut**
 
+# INGFO 2
+**JIKA MASIH BINGUNG SILAHKAN CHAT WA SAYA**
 
+**https://wa.me/6285211545148?teks=tutor+make+bot+lu**
 
 
 # CARA MENGINSTAL DI TERMUX
