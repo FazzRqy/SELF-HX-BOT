@@ -33,7 +33,7 @@
 # INGFO 2
 **JIKA MASIH BINGUNG SILAHKAN CHAT WA SAYA**
 
-**https://wa.me/6285211545148?teks=tutor+make+bot+lu**
+**https://wa.me/6285211545148**
 
 
 # CARA MENGINSTAL DI TERMUX
