@@ -54,7 +54,7 @@
 
 **>$cd SELF-HX-BOT**
 
-**>$bash install.sh
+**>$bash install.sh**
 
 **>$npm start**
 
