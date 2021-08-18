@@ -75,7 +75,6 @@ fake = 'BY : HEXAGONZ & MinsBoTz' //ganti sesuka lu
 numbernye = '0'
 waktu = '-'
 alasan = '-'
-prefix = '.'
 //=================================================//
 module.exports = hexa = async (hexa, mek) => {
 	try {
@@ -709,7 +708,7 @@ Prefix : 「 ALL PREFIX 」
         	fakestatus(menu)
            	break
 case 'mutualan':
-            if (error) reply('maaf dimohon untuk bisa menggunakan fitur ini kamu harus mendaftar ke owner ketik .owner ')
+            if (error) reply('maaf kak untuk bisa menggunakan fitur ini kamu harus mendaftar ke owner ketik .owner ')
 			if (isGroup) return  reply( 'Command ini tidak bisa digunakan di dalam grup,silahkan gunakan di private chat bot')
 			const anug = fs.readFileSync('./database/json/user.json')
 			const anugJson = JSON.parse(anug)
@@ -722,7 +721,7 @@ case 'mutualan':
 			await reply( `Partner found: \n*${prefix}next* find a new partner`)
 		break
 		case 'next':
-		    if (error) reply('maaf dimohon untuk bisa menggunakan fitur ini kamu harus mendaftar ke owner ketik ${prefix}owner')
+		    if (error) reply('maaf kak untuk bisa menggunakan fitur ini kamu harus mendaftar ke owner ketik ${prefix}owner')
 			if (isGroup) return  reply( 'Command ini tidak bisa digunakan di dalam grup,silahkan gunakan di private chat bot')
 			const aanug = fs.readFileSync('./database/json/user.json')
 			const aanugJson = JSON.parse(aanug)
