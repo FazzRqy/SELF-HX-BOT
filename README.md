@@ -6,6 +6,8 @@
 # FITUR YANG MASIH ERROR
 **>ANTILINK**
 
+**>WELCOME**
+
 **>DARKJOKES**
 
 # INGFO GAN
@@ -167,8 +169,8 @@
 |Report|✅|
 |Request|✅|
 
- dan lain lain cek aj sendiri|   |
- :----------------: | :------:   |
+ dan lain lain cek aj sendiri|
+ :----------------: |
 
 
 # SPECIAL THANKS TO
