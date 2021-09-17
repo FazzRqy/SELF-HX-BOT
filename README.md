@@ -8,8 +8,6 @@
 
 **>WELCOME**
 
-**>DARKJOKES**
-
 # INGFO GAN
 **>JIKA AD FILE YANG BERBENTUK ZIP SILAHKAN DI EKSTRAK DULU SEBELUM DI RUN OK 👍**
 
@@ -133,7 +131,6 @@
 |Cekcantik|✅|
 |Cekganteng|✅|
 |Pantun|✅|
-|Darkjokes|✅|
 |Pbucin|✅|
 |Ocr|✅|
 
