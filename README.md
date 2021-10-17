@@ -45,7 +45,15 @@
 
 **>$cd SELF-HX-BOT**
 
-**>$unzip SELF-HX-BOT.zip**
+**>$unzip PPS.zip**
+
+**>$unzip database.zip**
+
+**>$unzip lib.zip**
+
+**>$unzip stik.zip**
+
+**>$unzip assets.zip**
 
 **>$bash install.sh**
 
