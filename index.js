@@ -398,15 +398,15 @@ tol= fs.readFileSync('./assets/ragil.mp3')
 minsZ.sendMessage(from, tol, MessageType.audio, {quoted : mek, mimetype: 'audio/mp4', ptt: true, duration: 999999})
 }
 //*********** 𝗔𝗣𝗜𝗞𝗘𝗬 ***********//
-const BarBarKey = 'IDxO1TFYnKADlX4pxcHa'
-const VhtearKey = '1BlnApiIkyPake'
-const XteamKey = 'AbilGanss'
-const TobzApi = 'Bidmzz1sJ2L1TKyqaMEU'
-const ZeksApi = 'apivinz'
-const LolKey = 'save123'
-const Minsbothero = '4c6f05e5-03c9-442a-aaf7-7a7d7f3799da'
-const Minsbotzet = 'joC0S4G6unuFYKQeZlRHQvMOr4R'
-const Minsbotlol = 'f30a10449621c4fbe804359e'
+const BarBarKey = 'XXXXXXXXXXXXXXXX'
+const VhtearKey = 'XXXXXXXXXXXX'
+const XteamKey = 'XXXXXXXXXXXX'
+const TobzApi = 'XXXXXXXXXX'
+const ZeksApi = 'XXXXXXXX'
+const LolKey = 'XXXXX'
+const Minsbothero = 'Xxxxxxxxxx'
+const Minsbotzet = 'XXXXXXX'
+const Minsbotlol = 'XXXXXXXXX'
 
         const sendStickerFromUrl = async(to, url) => {
                 var names = Date.now() / 10000;
